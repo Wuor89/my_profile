@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+    <ul class="nav-list">
+        <li class="nav-item"><a href="# about me" class="nav-link">About me</a></li>
+        <li class="nav-item"><a href="#hobbies" class="nav-link">Hobbies</a></li>
+        <li class="nav-item"><a href="# contact me" class="nav-link">contact me</a></li>
+    </ul>
+</nav>
+    <!-- This is the header section for my profile -->
+    <header>
+        <img src="./Asset/image.png" alt="Profile Image" class="profile-image">
+        <h1>Deng</h1>
+    </header>
+
+    <!-- About Me section -->
+    <section>
+        <h2>About Me</h2>
+        <p>This is a brief bio about Deng.</p>
+    </section>
+
+    <!-- Hobbies section -->
+    <section>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Coding</li>
+            <li>Reading</li>
+            <li>Basketball</li>
+        </ul>
+    </section>
+
+    <!-- Contact form section -->
+    <section>
+        <h2>Contact Me</h2>
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>

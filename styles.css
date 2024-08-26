@@ -1,0 +1,76 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+header{
+    background-color: blue;
+    color:brown;
+    padding: 10px;
+    text-align: center;  
+}
+.profile-image{
+    width: 150;
+    height: 150;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+/*this is the general reset*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:0;   
+}
+/*this is the navbar sytling section*/
+.navbar{
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+     gap: 20px;
+}
+.nav-item{
+    margin: 0;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px 16px;
+}
+.nav-link:hover{
+    background-color: brown;
+    border-radius: 4px;
+    color: grey;
+
+}
+/*responsive design*/
+@media(max-width:768){
+    .navbar{
+        flex-direction:column ;
+        align-items: flex-start;
+    }
+    .nav-list{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+    
+
+ 
+    
+
+            
+        
+    
+
